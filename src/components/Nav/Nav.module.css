@@ -1,0 +1,47 @@
+.nav {
+    background-color: rgb(4, 1, 1);
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .botonAgregar {
+    background-color: #9df4fb;
+    color: #090606;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-direction: row;
+  }
+  
+  .input {
+    font-size: 1.2rem;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+  }
+  
+  .botones {
+    background-color: #9df4fb;
+    color: #090606;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-direction: row;
+    margin-left: 1rem;
+  }
+  
