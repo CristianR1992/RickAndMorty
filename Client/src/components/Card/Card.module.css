@@ -1,0 +1,75 @@
+.cardContainer {
+  padding: auto;
+  border-radius: 10px;
+  text-shadow: -2px 7px 8px rgba(0, 0, 0, 0.81);
+  background-color: #00d6ff;
+  width: 25%; /* Ajustar esta propiedad */
+  box-shadow: 0px 4px 20px 10px rgba(246, 242, 242, 0.75);
+  margin: 10px; /* Ajustar esta propiedad */
+  flex-basis: calc(25% - 20px);
+  color: #fb00ff80;
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative; 
+}
+
+.cardContainer:hover {
+  box-shadow: 0px 4px 20px 10px rgba(88, 52, 207, 0.75);
+}
+
+.buttonClose {
+  background-color: #4276f840;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px;
+  margin: 2px;
+  position: absolute; /* Agregar esta propiedad */
+  top: 5px; /* Ajustar la distancia desde la parte superior */
+  right: 5px; /* Ajustar la distancia desde la parte derecha */
+}
+
+.buttonClose:hover {
+  box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+.imagen {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 15%;
+  margin: auto;
+  padding: 1px;
+  box-shadow: 0 0 400px rgba(0, 0, 0, 0.5);
+}
+
+.fav {
+  background-color: #4276f840;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+  position: absolute; /* Agregar esta propiedad */
+  top: 5px; /* Ajustar la distancia desde la parte superior */
+  left: 5px; /* Ajustar la distancia desde la parte izquierda */
+}
+
+.fav:hover {
+  box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.75);
+}

@@ -1,8 +1,0 @@
-.container{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    width: 75%;
-    flex-wrap: wrap;
-}
