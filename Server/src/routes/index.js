@@ -1,6 +1,9 @@
 const {getCharById} = require('../controllers/getCharById')
-const {postFav, deleteFav} = require ('../controllers/handleFavorites')
-const {login} = require ('../controllers/login')
+const {deleteFav} = require ('../controllers/deleteFav')
+const {postFav} = require ('../controllers/postFav')
+const {login1} = require('../controllers/login1')
+
+
 
 
 const router = require('express').Router()
@@ -10,8 +13,9 @@ router.get('/character/:id',(req,res)=>{ // estas seria para uqe se entienda, pe
     getCharById(req, res)
 } )
 
-router.get ("/login",(req,res)=>{
-    login(req, res)} )
+router.get ("/login",login1 )
+
+router.post('/login',postFav)
 
 router.post('/fav',(req,res)=>{
     postFav(req, res)} )
